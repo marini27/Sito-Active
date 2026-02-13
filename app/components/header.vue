@@ -13,19 +13,11 @@
       </NuxtLink>
     </template>
 
-    <UNavigationMenu 
-      :items="navigationItems" 
-      orientation="horizontal"
-      class="ml-12 text-yellow-400 mx-auto"
-      :ui="{
-        link: 'px-4 py-2 text-white hover:text-gray-300 font-medium'
-       }"
-    />
+    <ZinellaMenu :menu="navigationItems" class="mx-auto"/>
 
     <template>
       <button 
-        class="bg-yellow-400 text-black font-bold px-6 py-1 rounded-md mx-auto"
-        to="/contatti"
+        class="bg-yellow-400 text-black font-bold px-6 py-1 rounded-md mx-auto hidden md:inline-flex items-center"
       >
         Iscriviti Ora
       </button>
