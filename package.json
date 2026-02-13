@@ -1,0 +1,19 @@
+{
+  "name": "Sito-Active",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview"
+  },
+  "dependencies": {
+    "@nuxt/content": "^3.11.2",
+    "@nuxt/ui": "^4.3.0",
+    "nuxt": "^4.3.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.18"
+  }
+}
