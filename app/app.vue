@@ -1,14 +1,14 @@
 <template>
     <UApp>
-      <Header />
+      <ZinellaHeader />
       <div class="main-content">
         <NuxtPage />
       </div>
-      <Footer />
+      <ZinellaFooter />
     </UApp>
 </template>
 
 <script setup lang="ts">
-import Header from '~/components/header.vue'
-import Footer from '~/components/footer.vue'
+import ZinellaHeader from '~/components/ZinellaHeader.vue'
+import ZinellaFooter from '~/components/ZinellaFooter.vue'
 </script>

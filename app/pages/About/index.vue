@@ -1,93 +1,95 @@
 <template>
-  <section class="bg-black text-white py-16 px-6 md:px-20">
-    <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-      <!-- colonna testo -->
-      <div>
-        <span class="text-yellow-400 font-semibold text-sm">
-          Chi Siamo
-        </span>
-
-        <h2 class="mt-4 text-3xl md:text-5xl font-bold leading-tight">
-          PIÙ DI UNA SQUADRA,<br />
-          UNA FAMIGLIA.
-        </h2>
-
-        <p class="mt-6 text-gray-300 leading-relaxed">
-          Lo Zinella Volley nasce con l'obiettivo di promuovere la pallavolo
-          come strumento di crescita educativa e sportiva. Dalle prime schiacciate nel minivolley
-          fino ai campionati agonistici, seguiamo i nostri atleti passo dopo passo.
-        </p>
-
-        <p class="mt-4 text-gray-300 leading-relaxed">
-          La nostra struttura offre 4 campi coperti, una sala pesi dedicata e uno staff tecnico di primo livello, pronto
-          a valorizzareil talento di ogni singolo ragazzo e ragazza.
-        </p>
-
-        <!-- feature -->
-        <div class="mt-8 flex flex-col sm:flex-row gap-8">
-          <div class="flex items-start gap-4">
-            <UIcon name="i-lucide-trophy" class="text-yellow-400 w-8 h-8 mt-1"/>
-            <div>
-              <h4 class="font-semibold">
-                Eccellenza
-              </h4>
-              <p class="text-gray-400 text-sm">
-                Staff tecnico certificato FIPAV.
-              </p>
-            </div>
-          </div>
-
-          <div class="flex items-start gap-3">
-            <UIcon name="i-lucide-users" class="text-yellow-400 w-8 h-8 mt-1" />
-            <div>
-              <h4 class="font-semibold">
-                Community
-              </h4>
-              <p class="text-gray-400 text-sm">
-                Eventi e tornei tutto l'anno.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- colonna immagine da sostituire con immagine corretta-->
-      <div>
-        <img src="/360_F_233175040_hwqRyiZlQkXimeLz2AIZhajyfiU9El1m.jpg" alt="Zinella Volley" class="rounded-xl object-cover w-full h-full" />
-      </div>
-    </div>
-
-      <!-- BLOCCO STATISTICHE -->
+  <FeatureShowcase
+    badge="Chi Siamo"
+    image="/360_F_233175040_hwqRyiZlQkXimeLz2AIZhajyfiU9El1m.jpg"
+    imageAlt="Zinella Volley"
+    :features="myFeatures"
+  >
+    <template #title>
+      PIÙ DI UNA SQUADRA,<br />
+      UNA FAMIGLIA.
+    </template>
+    <template #description>
+      Lo Zinella Volley nasce con l'obiettivo di promuovere la pallavolo
+      come strumento di crescita educativa e sportiva. Dalle prime schiacciate nel minivolley
+      fino ai campionati agonistici, seguiamo i nostri atleti passo dopo passo.<br />
+      La nostra struttura offre 4 campi coperti, una sala pesi dedicata e uno staff tecnico di primo livello, pronto
+      a valorizzareil talento di ogni singolo ragazzo e ragazza.
+    </template>
+    <template #stats>
       <div class="mt-20 mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 max-w-7xl gap-6">
-
-        <div class="bg-zinc-900 rounded-xl py-16 px-10 text-center">
-          <h3 class="text-yellow-400 text-5xl font-bold">50+</h3>
-          <p class="mt-2 text-gray-400 text-sm tracking-wide">
-            ANNI DI STORIA
-          </p>
-        </div>
-
-        <div class="bg-zinc-900 py-16 px-10 rounded-xl text-center">
-          <h3 class="text-yellow-400 text-5xl font-bold">350</h3>
-          <p class="mt-2 text-gray-400 text-sm tracking-wide">
-            ATLETI ISCRITTI
-          </p>
-        </div>
- 
-        <div class="bg-zinc-900 py-16 px-10 rounded-xl text-center">
-          <h3 class="text-yellow-400 text-5xl font-bold">22</h3>
-          <p class="mt-2 text-gray-400 text-sm tracking-wide">
-            CAMPIONATI VINTI
-          </p>
-        </div>
-
-        <div class="bg-zinc-900 py-16 px-10 rounded-xl text-center">
-          <h3 class="text-yellow-400 text-5xl font-bold">18</h3>
-          <p class="mt-2 text-gray-400 text-sm tracking-wide">
-            ALLENATORI
-          </p>
-        </div>
-
+        <StatCard value="50+" label="ANNI DI STORIA" />
+        <StatCard value="350" label="ATLETI ISCRITTI" />
+        <StatCard value="22" label="CAMPIONATI VINTI" />
+        <StatCard value="18" label="ALLENATORI" />
       </div>
+    </template>
+  </FeatureShowcase>
+  
+  <section class="bg-gradient-to-br from-yellow-400 to-black py-16 px-6 text-white">
+    <div class="max-w-7xl mx-auto">
+      
+      <header class="mb-12 max-w-2xl mx-auto"> 
+        <span class="bg-zinc-700/50 text-xs uppercase tracking-widest px-3 py-1 rounded-full border border-white/20 inline-block">
+          Il nostro staff
+        </span>
+  
+        <h2 class="text-4xl md:text-5xl font-extrabold mt-6 leading-tight text-white">
+          TECNICI, PREPARATORI,<br />EDUCATORI.
+        </h2>
+  
+        <p class="text-zinc-800 mt-4 max-w-xl"> Un team di professionisti che unisce esperienza di alto livello e attenzione alla crescita dei più giovani.</p>
+      </header>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <StaffCard 
+          v-for="person in team" 
+          :key="person.id"
+          :name="person.name"
+          :role="person.role"
+          :bio="person.bio"
+          :image="person.image"
+        />
+      </div>
+  </div>
   </section>
 </template>
+
+<script setup>
+const myFeatures = [
+  { 
+    icon: 'i-lucide-trophy', 
+    title: 'Eccellenza', 
+    text: 'Staff tecnico certificato FIPAV.' 
+  },
+  { 
+    icon: 'i-lucide-users', 
+    title: 'Community', 
+    text: 'Eventi e tornei tutto l\'anno.' 
+  }
+]
+
+const team = [
+  {
+    id: 1,
+    name: 'Elena Bianchi',
+    role: 'Allenatrice U16',
+    image: '/360_F_233175040_hwqRyiZlQkXimeLz2AIZhajyfiU9El1m.jpg', 
+    bio: 'Allenatrice giovane e preparata, lavora sulla tecnica individuale e sulla costruzione del gruppo nei campionati giovanili d\'eccellenza.'
+  },
+  {
+    id: 2,
+    name: 'Davide Neri',
+    role: 'Preparatore Atletico',
+    image: '/360_F_233175040_hwqRyiZlQkXimeLz2AIZhajyfiU9El1m.jpg',
+    bio: 'Laureato in Scienze Motorie, struttura i programmi di forza, prevenzione infortuni e riatletizzazione per tutte le prime squadre.'
+  },
+  {
+    id: 3,
+    name: 'Sara Gialli',
+    role: 'Responsabile Minivolley',
+    image: '/360_F_233175040_hwqRyiZlQkXimeLz2AIZhajyfiU9El1m.jpg',
+    bio: 'Punto di riferimento per i più piccoli: propone percorsi motori ludici dove il gioco è lo strumento principale di apprendimento.'
+  }
+]
+</script>
