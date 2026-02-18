@@ -1,5 +1,5 @@
 <template>
-  <FeatureShowcase
+  <MiniHero
     badge="Chi Siamo"
     image="/360_F_233175040_hwqRyiZlQkXimeLz2AIZhajyfiU9El1m.jpg"
     imageAlt="Zinella Volley"
@@ -24,7 +24,7 @@
         <StatCard value="18" label="ALLENATORI" />
       </div>
     </template>
-  </FeatureShowcase>
+  </MiniHero>
   
   <section class="bg-gradient-to-br from-yellow-400 to-black py-16 px-6 text-white">
     <div class="max-w-7xl mx-auto">
@@ -41,21 +41,32 @@
         <p class="text-zinc-800 mt-4 max-w-xl"> Un team di professionisti che unisce esperienza di alto livello e attenzione alla crescita dei più giovani.</p>
       </header>
 
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-        <StaffCard 
-          v-for="person in team" 
-          :key="person.id"
-          :name="person.name"
-          :role="person.role"
-          :bio="person.bio"
-          :image="person.image"
-        />
-      </div>
+      <StaffCarousel :staffMembers="staffMembers" @select="handleSelect"/>
+      <StaffModal :staffMember="selectedStaff" :isOpen="isOpen" @close="closeModal"/>
   </div>
   </section>
 </template>
 
 <script setup>
+import StaffMembersMock from '~/mock/staff.json'
+import { ref, onMounted } from 'vue'
+import MiniHero from '~/components/MiniHero.vue'
+import StatCard from '~/components/StatCard.vue'
+import StaffCarousel from '~/components/StaffCarousel.vue'
+import StaffModal from '~/components/StaffModal.vue'
+
+const selectedStaff = ref(null)
+const isOpen = ref(false)
+
+const handleSelect = (staffMember) => {
+  selectedStaff.value = staffMember
+  isOpen.value = true
+}
+
+const closeModal = () => {
+  selectedStaff.value = null
+  isOpen.value = false
+}
 const myFeatures = [
   { 
     icon: 'i-lucide-trophy', 
@@ -69,27 +80,11 @@ const myFeatures = [
   }
 ]
 
-const team = [
-  {
-    id: 1,
-    name: 'Elena Bianchi',
-    role: 'Allenatrice U16',
-    image: '/360_F_233175040_hwqRyiZlQkXimeLz2AIZhajyfiU9El1m.jpg', 
-    bio: 'Allenatrice giovane e preparata, lavora sulla tecnica individuale e sulla costruzione del gruppo nei campionati giovanili d\'eccellenza.'
-  },
-  {
-    id: 2,
-    name: 'Davide Neri',
-    role: 'Preparatore Atletico',
-    image: '/360_F_233175040_hwqRyiZlQkXimeLz2AIZhajyfiU9El1m.jpg',
-    bio: 'Laureato in Scienze Motorie, struttura i programmi di forza, prevenzione infortuni e riatletizzazione per tutte le prime squadre.'
-  },
-  {
-    id: 3,
-    name: 'Sara Gialli',
-    role: 'Responsabile Minivolley',
-    image: '/360_F_233175040_hwqRyiZlQkXimeLz2AIZhajyfiU9El1m.jpg',
-    bio: 'Punto di riferimento per i più piccoli: propone percorsi motori ludici dove il gioco è lo strumento principale di apprendimento.'
-  }
-]
+const staffMembers = ref([])
+
+onMounted(() => {
+  setTimeout(() => {
+    staffMembers.value = StaffMembersMock
+  }, 1500)
+})
 </script>

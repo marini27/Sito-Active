@@ -27,6 +27,7 @@
 
 <script setup lang="ts">
 import type { NavigationMenuItem } from '@nuxt/ui'
+import ZinellaMenu from '~/components/ZinellaMenu.vue'
 
 const navigationItems = computed<NavigationMenuItem[]>(() => [
   { label: 'HOME', to: '/' },

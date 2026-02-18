@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "name": "Serie C Maschile",
+        "city": "Bologna"
+    },
+    {
+        "id": 2,
+        "name": "Serie C Femminile",
+        "city": "Bologna"
+    },
+    {
+        "id": 3,
+        "name": "U16 Femminile",
+        "city": "Bologna"
+    },
+    {
+        "id": 4,
+        "name": "U16 Maschile",
+        "city": "Bologna"
+    },
+    {
+        "id": 5,
+        "name": "Minivolley S3",
+        "city": "Bologna"
+    }
+]

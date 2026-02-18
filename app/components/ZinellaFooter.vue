@@ -55,28 +55,28 @@ const sections = [
   {
     title: "SOCIETÀ",
     links: [
-      { label: "Chi Siamo", to: "/chi-siamo" },
-      { label: "Storia", to: "/storia" },
-      { label: "Organigramma", to: "/organigramma" },
-      { label: "Partner & Sponsor", to: "/partner" }
+      { label: "Chi Siamo", to: "/" },
+      { label: "Storia", to: "/" },
+      { label: "Organigramma", to: "/" },
+      { label: "Partner & Sponsor", to: "/" }
     ]
   },
   {
     title: "ATTIVITÀ",
     links: [
-      { label: "Serie C Maschile", to: "/serie-c" },
-      { label: "Settore Giovanile", to: "/giovanile" },
-      { label: "Minivolley S3", to: "/minivolley" },
-      { label: "Camp Estivi", to: "/camp" }
+      { label: "Serie C Maschile", to: "/" },
+      { label: "Settore Giovanile", to: "/" },
+      { label: "Minivolley S3", to: "/" },
+      { label: "Camp Estivi", to: "/" }
     ]
   },
   {
     title: "CONTATTI",
     links: [
-      { label: "Segreteria", to: "/contatti" },
-      { label: "Lavora con noi", to: "/lavora" },
-      { label: "Dove Siamo", to: "/dove-siamo" },
-      { label: "Area Riservata", to: "/area-riservata" }
+      { label: "Segreteria", to: "/" },
+      { label: "Lavora con noi", to: "/" },
+      { label: "Dove Siamo", to: "/" },
+      { label: "Area Riservata", to: "/" }
     ]
   }
 ]
