@@ -30,4 +30,22 @@
     </div>
     </div>
   </section>
+  
+  <ZinellaSection
+    title="La nostra storia"
+    description="Dal 1970 portiamo passione, talento e spirito di squadra sui campi di tutta Italia. Unisciti alla famiglia Zinella."
+    imageSrc="/360_F_233175040_hwqRyiZlQkXimeLz2AIZhajyfiU9El1m.jpg"
+    imageAlt="Zinella Volley Bologna"
+    reverse=true
+  />
+  <ZinellaSection
+    title="La nostra storia"
+    description="Dal 1970 portiamo passione, talento e spirito di squadra sui campi di tutta Italia. Unisciti alla famiglia Zinella."
+    imageSrc="/360_F_233175040_hwqRyiZlQkXimeLz2AIZhajyfiU9El1m.jpg"
+    imageAlt="Zinella Volley Bologna"
+  />
 </template>
+
+<script setup>
+import ZinellaSection from '~/components/ZinellaSection.vue';
+</script>
