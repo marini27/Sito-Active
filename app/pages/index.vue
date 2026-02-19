@@ -8,7 +8,7 @@
         <span class="text-yellow-400">PALLAVOLO</span> 
         A BOLOGNA
       </h1>
-      <p class="text-gray-400 text-sm">
+      <p class="text-zinc-400 text-sm">
         Dal 1970 portiamo passione, talento e spirito di squadra sui campi di tutta Italia. Unisciti alla famiglia Zinella.
       </p>
       <div class="mt-8 flex flex-col sm:flex-row justify-center gap-4">

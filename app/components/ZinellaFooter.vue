@@ -15,14 +15,14 @@
             <li v-for="link in section.links" :key="link.label">
               <NuxtLink
                 :to="link.to"
-                class="text-gray-400"
+                class="text-zinc-400"
               >
                 {{ link.label }}
               </NuxtLink>
             </li>
             <li v-if="section.social" :key="section.social[0]?.icon">
               <NuxtLink v-for="social in section.social" :key="social.icon" :to="social.link" target="_blank">
-                <UIcon :name="social.icon" class="text-gray-400 transition px-2 mx-2 my-2 w-4 h-4" />
+                <UIcon :name="social.icon" class="text-zinc-400 transition px-2 mx-2 my-2 w-4 h-4" />
               </NuxtLink>
             </li>
           </ul>
@@ -31,7 +31,7 @@
       </div>
 
       <!-- Bottom -->
-      <div class=" border-gray-800 mt-16 pt-6 text-center text-gray-400">
+      <div class=" border-zinc-800 mt-16 pt-6 text-center text-zinc-400">
         © 2024 Zinella Volley Bologna ASD - P.IVA 0123456789
       </div>
 

@@ -14,10 +14,10 @@
       <h4 class="text-xl font-bold text-white group-hover:text-yellow-500 transition-colors">
         {{ staffMember.name }}
       </h4>
-      <p class="text-[10px] uppercase tracking-[0.2em] font-semibold text-gray-500 mt-1 mb-4">
+      <p class="text-[10px] uppercase tracking-[0.2em] font-semibold text-zinc-400 mt-1 mb-4">
         {{ staffMember.role }}
       </p>
-      <p class="text-sm leading-relaxed text-gray-400 line-clamp-3">
+      <p class="text-sm leading-relaxed text-zinc-400 line-clamp-3">
         {{ staffMember.bio }}
       </p>
     </div>

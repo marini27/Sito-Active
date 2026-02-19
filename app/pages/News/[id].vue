@@ -1,19 +1,19 @@
 <template>
   <div>
     <div v-if="article">
-      <NuxtLink to="/news" class="text-sm text-gray-500 hover:underline">
+      <NuxtLink to="/news" class="text-sm text-zinc-500 hover:underline">
         ← Tutte le news
       </NuxtLink>
       <header class="py-8">
-        <p class="text-sm text-gray-500 mb-2">
+        <p class="text-sm text-zinc-500 mb-2">
           {{ formatDate(article.date) }}
         </p>
         <h1 class="text-4xl font-bold">{{ article.title }}</h1>
       </header>
 
       <article class="prose max-w-none">
-        <p class="text-lg text-gray-700 mb-4">{{ article.excerpt }}</p>
-        <p class="text-gray-600">{{ article.content }}</p>
+        <p class="text-lg text-zinc-700 mb-4">{{ article.excerpt }}</p>
+        <p class="text-zinc-600">{{ article.content }}</p>
       </article>
     </div>
     

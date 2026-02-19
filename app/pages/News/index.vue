@@ -16,7 +16,7 @@
     <ul>
       <li v-for="article in news" :key="article.id" class="py-8">
         <NuxtLink :to="`/news/${article.id}`">
-          <span class="text-sm text-gray-500">{{ formatDate(article.date) }}</span>
+          <span class="text-sm text-zinc-500">{{ formatDate(article.date) }}</span>
           <h2>
             {{ article.title }}
           </h2>

@@ -9,7 +9,7 @@
           v-for="item in menu"
           :key="item.label"
           :to="item.to"
-          class="block px-6 py-4 text-white border-b border-gray-700"
+          class="block px-6 py-4 text-white border-b border-zinc-700"
           @click="isOpen = false"
         >
           {{ item.label }}

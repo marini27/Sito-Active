@@ -1,6 +1,6 @@
 <template>
     <div v-if="!staffMembers.length" class="flex gap-6">
-      <div v-for="i in 3" :key="i" class="h-60 w-72 bg-gray-200 animate-pulse rounded-xl" />
+      <div v-for="i in 3" :key="i" class="h-60 w-72 bg-zinc-800 animate-pulse rounded-xl" />
     </div>
   
     <div v-else class="flex gap-6 overflow-x-auto no-scrollbar scroll-smooth">

@@ -11,7 +11,7 @@
             <slot name="title" />
           </h2>
   
-          <div class="mt-6 space-y-4 text-gray-300 leading-relaxed">
+          <div class="mt-6 space-y-4 text-zinc-400 leading-relaxed">
             <slot name="description" />
           </div>
   
@@ -20,7 +20,7 @@
               <UIcon :name="feature.icon" class="text-yellow-400 w-8 h-8 mt-1 shrink-0"/>
               <div>
                 <h4 class="font-semibold">{{ feature.title }}</h4>
-                <p class="text-gray-400 text-sm">{{ feature.text }}</p>
+                <p class="text-zinc-400 text-sm">{{ feature.text }}</p>
               </div>
             </div>
           </div>

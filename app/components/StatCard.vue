@@ -3,7 +3,7 @@
     <h3 class="text-yellow-400 text-4xl md:text-5xl font-bold">
       {{ value }}
     </h3>
-    <p class="mt-2 text-gray-400 text-xs md:text-sm tracking-widest uppercase">
+    <p class="mt-2 text-zinc-400 text-xs md:text-sm tracking-widest uppercase">
       {{ label }}
     </p>
   </div>
