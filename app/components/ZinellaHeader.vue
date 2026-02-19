@@ -1,5 +1,5 @@
 <template>
-  <header class="bg-black text-yellow-400 h-20 px-8 flex items-center">
+  <header class="sticky top-0 z-50 bg-black text-yellow-400 h-20 px-8 flex items-center">
     <template>
       <NuxtLink to="/" class="flex items-center gap-3">
         <img 
@@ -14,14 +14,6 @@
     </template>
 
     <ZinellaMenu :menu="navigationItems" class="mx-auto"/>
-
-    <template>
-      <button 
-        class="bg-yellow-400 text-black font-bold px-6 py-1 rounded-md mx-auto hidden md:inline-flex items-center"
-      >
-        Iscriviti Ora
-      </button>
-    </template>
   </header>
 </template>
 

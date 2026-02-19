@@ -26,7 +26,7 @@
     </template>
   </MiniHero>
   
-  <section class="bg-gradient-to-br from-yellow-400 to-black py-16 px-6 text-white">
+  <section class="bg-gradient-to-br from-yellow-400 to-black py-16 text-white">
     <div class="max-w-7xl mx-auto">
       
       <header class="mb-12 max-w-2xl mx-auto"> 
@@ -40,10 +40,11 @@
   
         <p class="text-zinc-800 mt-4 max-w-xl"> Un team di professionisti che unisce esperienza di alto livello e attenzione alla crescita dei più giovani.</p>
       </header>
-
-      <StaffCarousel :staffMembers="staffMembers" @select="handleSelect"/>
-      <StaffModal :staffMember="selectedStaff" :isOpen="isOpen" @close="closeModal"/>
   </div>
+  <div class="w-full px-2">
+    <StaffCarousel :staffMembers="staffMembers" @select="handleSelect"/>
+  </div>
+  <StaffModal :staffMember="selectedStaff" :isOpen="isOpen" @close="closeModal"/>
   </section>
 </template>
 

@@ -1,6 +1,17 @@
 <template>
-  <div class="p-8">
-    <h1>Le Nostre Squadre</h1>
+  <div>
+    <MiniHero
+      badge="Teams"
+      image="/360_F_233175040_hwqRyiZlQkXimeLz2AIZhajyfiU9El1m.jpg"
+      imageAlt="Zinella Volley"
+    >
+      <template #title>
+        Le Nostre Squadre
+      </template>
+      <template #description>
+        Le nostre squadre sono il cuore della nostra struttura. Offrono corsi di preparazione fisica, tecnica e psicologica per i nostri atleti.
+      </template>
+    </MiniHero>
     
     <div class="grid grid-cols-1 md:grid-cols-3 gap-6 py-8">
       <NuxtLink 
