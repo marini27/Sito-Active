@@ -3,9 +3,9 @@
       <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         
         <div>
-          <span v-if="badge" class="text-yellow-400 font-semibold text-sm">
+          <nav v-if="badge" class="text-zinc-500 text-xs uppercase tracking-widest mb-4">
             {{ badge }}
-          </span>
+          </nav>
   
           <h2 class="mt-4 text-3xl md:text-5xl font-bold leading-tight uppercase">
             <slot name="title" />
@@ -26,7 +26,7 @@
           </div>
         </div>
   
-        <div class="relative h-full">
+        <div v-if="image" class="relative h-full">
           <img 
             :src="image" 
             :alt="imageAlt" 
@@ -43,8 +43,7 @@
   defineProps({
     badge: String,
     image: {
-      type: String,
-      required: true
+      type: String
     },
     imageAlt: {
       type: String,

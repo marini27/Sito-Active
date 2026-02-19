@@ -1,27 +1,81 @@
 [
     {
-        "id": 1,
-        "name": "Serie C Maschile",
-        "city": "Bologna"
+      "id": 1,
+      "name": "Prima Squadra",
+      "city": "Bologna",
+      "category": "Serie C Maschile",
+      "championship": "Campionato Regionale",
+      "coach": "Marco Ferrini",
+      "assistantCoach": "Andrea Monti",
+      "arena": "Palazinella, Bologna",
+      "training": "Lunedì - Mercoledì - Venerdì 20:00-22:00",
+      "objective": "Accesso ai Play-off promozione in Serie B",
+      "rosterSize": 14
     },
     {
-        "id": 2,
-        "name": "Serie C Femminile",
-        "city": "Bologna"
+      "id": 2,
+      "name": "Zinella Young",
+      "city": "Bologna",
+      "category": "Serie D Maschile",
+      "championship": "Campionato Regionale",
+      "coach": "Luca Bianchi",
+      "assistantCoach": "Davide Rinaldi",
+      "arena": "Palazinella, Bologna",
+      "training": "Martedì - Giovedì 20:00-22:00",
+      "objective": "Valorizzazione giovani e salvezza tranquilla",
+      "rosterSize": 16
     },
     {
-        "id": 3,
-        "name": "U16 Femminile",
-        "city": "Bologna"
+      "id": 3,
+      "name": "U19 Maschile",
+      "city": "Bologna",
+      "category": "Under 19",
+      "championship": "Campionato Regionale",
+      "coach": "Giovanni Rossi",
+      "assistantCoach": "Matteo Verdi",
+      "arena": "Palazinella, Bologna",
+      "training": "Lunedì - Mercoledì 18:30-20:00",
+      "objective": "Accesso alla fase regionale",
+      "rosterSize": 14
     },
     {
-        "id": 4,
-        "name": "U16 Maschile",
-        "city": "Bologna"
+      "id": 4,
+      "name": "U17 Maschile",
+      "city": "Bologna",
+      "category": "Under 17",
+      "championship": "Campionato Provinciale",
+      "coach": "Alessandro Conti",
+      "assistantCoach": "Federico Neri",
+      "arena": "Palestra Copernico, Bologna",
+      "training": "Martedì - Giovedì 18:00-19:30",
+      "objective": "Crescita tecnica e qualificazione fase interprovinciale",
+      "rosterSize": 15
     },
     {
-        "id": 5,
-        "name": "Minivolley S3",
-        "city": "Bologna"
+      "id": 5,
+      "name": "U15 Maschile",
+      "city": "Bologna",
+      "category": "Under 15",
+      "championship": "Campionato Provinciale",
+      "coach": "Simone Galli",
+      "assistantCoach": "Riccardo Marchetti",
+      "arena": "Palestra Copernico, Bologna",
+      "training": "Lunedì - Giovedì 17:30-19:00",
+      "objective": "Formazione tecnica e sviluppo fondamentali",
+      "rosterSize": 16
+    },
+    {
+      "id": 6,
+      "name": "Minivolley S3",
+      "city": "Bologna",
+      "category": "S3 (6-11 anni)",
+      "championship": "Attività Promozionale",
+      "coach": "Chiara Lombardi",
+      "assistantCoach": "Elisa Martelli",
+      "arena": "Palazinella, Bologna",
+      "training": "Mercoledì - Venerdì 17:00-18:00",
+      "objective": "Avviamento allo sport e sviluppo coordinativo",
+      "rosterSize": 25
     }
-]
+  ]
+  

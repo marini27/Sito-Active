@@ -1,6 +1,6 @@
 <template>
   <MiniHero
-    badge="Chi Siamo"
+    badge="Home / Chi Siamo"
     image="/360_F_233175040_hwqRyiZlQkXimeLz2AIZhajyfiU9El1m.jpg"
     imageAlt="Zinella Volley"
     :features="myFeatures"

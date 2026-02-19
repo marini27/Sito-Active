@@ -1,38 +1,60 @@
 <template>
-  <div>
+  <div class="bg-black min-h-screen text-white">
     <MiniHero
-      badge="Teams"
-      image="/360_F_233175040_hwqRyiZlQkXimeLz2AIZhajyfiU9El1m.jpg"
-      imageAlt="Zinella Volley"
+      badge="Stagione 2024/2025"
+      imageAlt="Zinella Volley Squadre"
     >
-      <template #title>
-        Le Nostre Squadre
-      </template>
+      <template #title>Le nostre squadre</template>
       <template #description>
-        Le nostre squadre sono il cuore della nostra struttura. Offrono corsi di preparazione fisica, tecnica e psicologica per i nostri atleti.
+        Dalla Serie C al minivolley: scopri tutte le formazioni Zinella Volley, 
+        gli staff tecnici e i campionati in cui siamo protagonisti.
       </template>
     </MiniHero>
-    
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 py-8">
-      <NuxtLink 
-        v-for="team in teams" 
-        :key="team.id" 
-        :to="`/teams/${team.id}`"
-      >
-        <h2>{{ team.name }}</h2>
-        <p>{{ team.city }}</p>
-      </NuxtLink>
+
+    <div class="max-w-7xl mx-auto px-6 py-12">
+      <div class="flex justify-end gap-3 mb-12">
+        <button class="px-4 py-1.5 rounded-full bg-yellow-400 text-black font-bold text-sm">Tutte</button>
+        <button class="px-4 py-1.5 rounded-full bg-zinc-800 text-zinc-400 font-bold text-sm hover:bg-zinc-700">Senior</button>
+        <button class="px-4 py-1.5 rounded-full bg-zinc-800 text-zinc-400 font-bold text-sm hover:bg-zinc-700">Giovanili</button>
+        <button class="px-4 py-1.5 rounded-full bg-zinc-800 text-zinc-400 font-bold text-sm hover:bg-zinc-700">Minivolley</button>
+      </div>
+
+      <TeamSection
+        title="Squadre Senior"
+        :teams="seniorTeams"
+      />
+      <TeamSection
+        title="Squadre Giovanili"
+        :teams="juniorTeams"
+      />
+      <TeamSection
+        title="Minivolley e Volley S3"
+        :teams="minivolleyTeams"
+      />
     </div>
   </div>
 </template>
 
 <script setup>
 import mockTeams from '~/mock/teams.json';
-import { ref, onMounted } from 'vue';
+import { ref, computed, onMounted } from 'vue';
 
 const teams = ref([]);
 
 onMounted(() => {
   teams.value = mockTeams;
 });
+
+const seniorTeams = computed(() => {
+  return teams.value.filter(team => team.category === 'Serie C Maschile' || team.category === 'Serie D Maschile');
+});
+
+const juniorTeams = computed(() => {
+  return teams.value.filter(team => team.category === 'Under 19' || team.category === 'Under 17' || team.category === 'Under 15');
+});
+
+const minivolleyTeams = computed(() => {
+  return teams.value.filter(team => team.category === 'S3 (6-11 anni)');
+});
+
 </script>
