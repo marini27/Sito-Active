@@ -9,7 +9,7 @@
         {{ team.description }}
       </template>
     </MiniHero>
-    <div class="max-w-7xl mx-auto">
+    <div class="max-w-7xl mx-auto px-4">
       <div class="flex items-center gap-4 mb-4">
         <h1 class="text-3xl font-black italic uppercase">La rosa {{ team.season }}</h1>
       </div>

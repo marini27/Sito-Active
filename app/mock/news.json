@@ -1,16 +1,68 @@
 [
-    {
-      "id": 1,
-      "title": "Inizio Campionato 2024",
-      "date": "2024-02-18",
-      "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-    },
-    {
-      "id": 2,
-      "title": "Nuovo Allenatore Serie C",
-      "date": "2024-02-15",
-      "excerpt": "Duis aute irure dolor in reprehenderit in voluptate velit.",
-      "content": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-    }
-  ]
+  {
+    "id": 1,
+    "category": "prima-squadra",
+    "date": "2026-02-20",
+    "title": "Zinella Volley conquista una vittoria storica nel derby contro Modena",
+    "excerpt": "Una partita al cardiopalma che ha visto i nostri ragazzi rimontare due set di svantaggio e trionfare al tie-break davanti ad un palazzetto gremito di tifosi in festa.",
+    "image": "/360_F_233175040_hwqRyiZlQkXimeLz2AIZhajyfiU9El1m.jpg",
+    "featured": true,
+    "badge": "vittoria nel derby",
+    "readTime": "3 min lettura",
+    "content": "È stata una serata indimenticabile al Palazzetto dello Sport, dove la Zinella Volley ha scritto un'altra pagina importante della sua storia recente. Contro una Modena agguerrita e ben organizzata, i ragazzi di coach Ferrini hanno dimostrato carattere, resilienza e una qualità di gioco che fa ben sperare per il prosieguo della stagione.\n\n## La Cronaca del Match\n\nL'inizio non è stato dei migliori. Modena è partita forte, sfruttando al meglio il servizio e mettendo in difficoltà la nostra ricezione. I primi due set sono scivolati via con i parziali di 21-25 e 19-25, lasciando presagire una serata amara per i colori gialloneri.\n\n> \"Non abbiamo mai smesso di crederci, nemmeno quando eravamo sotto 0-2. Il pubblico è stato il nostro settimo uomo in campo.\"\n\nLa svolta è arrivata nel terzo set. Capitan Rossi ha suonato la carica con due ace consecutivi che hanno infiammato il pubblico. Da quel momento, l'inerzia della gara è cambiata radicalmente. La difesa ha iniziato a toccare ogni pallone e il contrattacco è diventato letale.\n\nIl quarto set è stato un monologo Zinella (25-18), portando la sfida al tie-break decisivo. Lì, punto a punto, la lucidità dei nostri palleggiatori ha fatto la differenza, chiudendo il match sul 15-13 tra il tripudio generale.\n\n## Prossimi Appuntamenti\n\nOra non c'è tempo per festeggiare troppo. Domenica prossima ci aspetta la difficile trasferta a Ravenna, un altro banco di prova fondamentale per capire le reali ambizioni di questa squadra. Lo staff medico valuterà nelle prossime ore le condizioni di Bianchi, uscito anzitempo per un leggero affaticamento."
+  },
+  {
+    "id": 2,
+    "category": "giovanile",
+    "date": "2026-02-20",
+    "title": "L'Under 17 vola alle finali regionali dopo una stagione perfetta",
+    "excerpt": "I giovani talenti della Zinella si preparano per l'atto conclusivo del campionato regionale.",
+    "image": "/360_F_233175040_hwqRyiZlQkXimeLz2AIZhajyfiU9El1m.jpg",
+    "featured": false
+  },
+  {
+    "id": 3,
+    "category": "eventi",
+    "date": "2026-02-20",
+    "title": "Open Day Minivolley: ecco tutte le date per i piccoli atleti",
+    "excerpt": "Aperte le iscrizioni per i corsi di avviamento allo sport. Scopri come partecipare alle giornate di prova.",
+    "image": "/360_F_233175040_hwqRyiZlQkXimeLz2AIZhajyfiU9El1m.jpg",
+    "featured": false
+  },
+  {
+    "id": 4,
+    "category": "comunicati",
+    "date": "2026-02-20",
+    "title": "Parola al Coach: \"Dobbiamo mantenere alta la concentrazione\"",
+    "excerpt": "L'analisi tecnica della prossima sfida di campionato e il punto sulla condizione fisica della squadra.",
+    "image": "/360_F_233175040_hwqRyiZlQkXimeLz2AIZhajyfiU9El1m.jpg",
+    "featured": false
+  },
+  {
+    "id": 5,
+    "category": "comunicati",
+    "date": "2026-02-20",
+    "title": "Nuova partnership strategica con lo sponsor tecnico",
+    "excerpt": "Zinella Volley è orgogliosa di annunciare il rinnovo della collaborazione per le nuove divise ufficiali.",
+    "image": "/360_F_233175040_hwqRyiZlQkXimeLz2AIZhajyfiU9El1m.jpg",
+    "featured": false
+  },
+  {
+    "id": 6,
+    "category": "eventi",
+    "date": "2026-02-20",
+    "title": "Serie C: Sconfitta onorevole contro la capolista",
+    "excerpt": "Nonostante una grande prestazione difensiva, i gialloneri cadono per 3-1. Ottimi segnali dai giovani esordienti.",
+    "image": "/360_F_233175040_hwqRyiZlQkXimeLz2AIZhajyfiU9El1m.jpg",
+    "featured": false
+  },
+  {
+    "id": 7,
+    "category": "eventi",
+    "date": "2026-02-20",
+    "title": "Zinella Summer Camp: aperte le pre-iscrizioni 2024",
+    "excerpt": "Una settimana di volley, mare e divertimento. Scopri le località e i programmi per l'estate.",
+    "image": "/360_F_233175040_hwqRyiZlQkXimeLz2AIZhajyfiU9El1m.jpg",
+    "featured": false
+  }
+]

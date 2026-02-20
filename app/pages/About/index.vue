@@ -29,7 +29,7 @@
   <section class="bg-gradient-to-br from-yellow-400 to-black py-16 text-white">
     <div class="max-w-7xl mx-auto">
       
-      <header class="mb-12 max-w-2xl mx-auto"> 
+      <header class="mb-12 max-w-2xl mx-auto px-4"> 
         <span class="bg-zinc-700/50 text-xs uppercase tracking-widest px-3 py-1 rounded-full border border-white/20 inline-block">
           Il nostro staff
         </span>
