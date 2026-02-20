@@ -6,6 +6,10 @@
           <nav v-if="badge" class="text-zinc-500 text-xs uppercase tracking-widest mb-4">
             {{ badge }}
           </nav>
+
+          <span v-if="badgeCategory" class="inline-block bg-yellow-400 text-black px-4 py-1.5 rounded-full text-[10px] font-black uppercase tracking-tighter shadow-[0_0_15px_rgba(250,204,21,0.3)]">
+            {{ badgeCategory }}
+          </span>
   
           <h2 class="mt-4 text-3xl md:text-5xl font-bold leading-tight uppercase">
             <slot name="title" />
@@ -42,6 +46,7 @@
   <script setup>
   defineProps({
     badge: String,
+    badgeCategory: String,
     image: {
       type: String
     },

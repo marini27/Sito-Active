@@ -5,12 +5,130 @@
       "city": "Bologna",
       "category": "Serie C Maschile",
       "championship": "Campionato Regionale",
+      "group": "Girone A",
       "coach": "Marco Ferrini",
       "assistantCoach": "Andrea Monti",
       "arena": "Palazinella, Bologna",
-      "training": "Lunedì - Mercoledì - Venerdì 20:00-22:00",
+      "training": "Lun - Mer - Ven",
       "objective": "Accesso ai Play-off promozione in Serie B",
-      "rosterSize": 14
+      "rosterSize": 14,
+      "description": "La Prima Squadra è la squadra di livello più alto della nostra struttura. Partecipa al campionato regionale e si prepara per accedere ai play-off promozione in Serie B.",
+      "season": "2024/2025",
+      "players": [
+        {
+          "id": 1,
+          "name": "Mario Rossi",
+          "number": 1,
+          "role": "Palleggiatore",
+          "image": "/360_F_233175040_hwqRyiZlQkXimeLz2AIZhajyfiU9El1m.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Luigi Bianchi",
+          "number": 2,
+          "role": "Opposto",
+          "image": "/360_F_233175040_hwqRyiZlQkXimeLz2AIZhajyfiU9El1m.jpg"
+        },
+        {
+          "id": 3,
+          "name": "Giuseppe Verdi",
+          "number": 3,
+          "role": "Centrale",
+          "image": "/360_F_233175040_hwqRyiZlQkXimeLz2AIZhajyfiU9El1m.jpg"
+        },
+        {
+          "id": 4,
+          "name": "Francesco Neri",
+          "number": 4,
+          "role": "Libero",
+          "image": "/360_F_233175040_hwqRyiZlQkXimeLz2AIZhajyfiU9El1m.jpg"
+        },
+        {
+          "id": 5,
+          "name": "Giovanni Rossi",
+          "number": 5,
+          "role": "Schiacciatore",
+          "image": "/360_F_233175040_hwqRyiZlQkXimeLz2AIZhajyfiU9El1m.jpg"
+        },
+        {
+          "id": 6,
+          "name": "Giovanni Conti",
+          "number": 6,
+          "role": "Schiacciatore",
+          "image": "/360_F_233175040_hwqRyiZlQkXimeLz2AIZhajyfiU9El1m.jpg"
+        },
+        {
+          "id": 7,
+          "name": "Francesco Neri",
+          "number": 7,
+          "role": "Libero",
+          "image": "/360_F_233175040_hwqRyiZlQkXimeLz2AIZhajyfiU9El1m.jpg"
+        },
+        {
+          "id": 8,
+          "name": "Giovanni Rossi",
+          "number": 8,
+          "role": "Schiacciatore",
+          "image": "/360_F_233175040_hwqRyiZlQkXimeLz2AIZhajyfiU9El1m.jpg"
+        },
+        {
+          "id": 9,
+          "name": "Giovanni Conti",
+          "number": 9,
+          "role": "Schiacciatore",
+          "image": "/360_F_233175040_hwqRyiZlQkXimeLz2AIZhajyfiU9El1m.jpg"
+        }
+      ],
+      "staff": [
+        {
+          "id": 1,
+          "name": "Mario Rossi",
+          "role": "Allenatore",
+          "avatar": "/360_F_233175040_hwqRyiZlQkXimeLz2AIZhajyfiU9El1m.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Luigi Bianchi",
+          "role": "Preparatore Atletico",
+          "avatar": "/360_F_233175040_hwqRyiZlQkXimeLz2AIZhajyfiU9El1m.jpg"
+        },
+        {
+          "id": 3,
+          "name": "Sara Gialli",
+          "role": "Dirigente Sportivo",
+          "avatar": "/360_F_233175040_hwqRyiZlQkXimeLz2AIZhajyfiU9El1m.jpg"
+        }
+      ],
+      "matches": [
+        {
+          "id": 1,
+          "date": "2024-01-01",
+          "opponent": "Modena Volley",
+          "score": "3-1",
+          "win": true
+        },
+        {
+          "id": 2,
+          "date": "2024-01-02",
+          "opponent": "Verona Volley",
+          "score": "2-3",
+          "win": false
+        },
+        {
+          "id": 3,
+          "date": "2024-01-03",
+          "opponent": "Reggio Emilia Volley",
+          "score": "1-3",
+          "win": false
+        },
+        {
+          "id": 4,
+          "date": "2024-01-04",
+          "opponent": "Ferrara Volley",
+          "score": "3-0",
+          "win": true
+        }
+      ]
     },
     {
       "id": 2,
@@ -18,12 +136,130 @@
       "city": "Bologna",
       "category": "Serie D Maschile",
       "championship": "Campionato Regionale",
+      "group": "Girone B",
       "coach": "Luca Bianchi",
       "assistantCoach": "Davide Rinaldi",
       "arena": "Palazinella, Bologna",
       "training": "Martedì - Giovedì 20:00-22:00",
       "objective": "Valorizzazione giovani e salvezza tranquilla",
-      "rosterSize": 16
+      "rosterSize": 16,
+      "description": "La Zinella Young è la squadra di livello più basso della nostra struttura. Partecipa al campionato regionale e si prepara per accedere ai play-off promozione in Serie B.",
+      "season": "2024/2025",
+      "players": [
+        {
+          "id": 1,
+          "name": "Mario Rossi",
+          "number": 1,
+          "role": "Palleggiatore",
+          "image": "/360_F_233175040_hwqRyiZlQkXimeLz2AIZhajyfiU9El1m.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Luigi Bianchi",
+          "number": 2,
+          "role": "Opposto",
+          "image": "/360_F_233175040_hwqRyiZlQkXimeLz2AIZhajyfiU9El1m.jpg"
+        },
+        {
+          "id": 3,
+          "name": "Giuseppe Verdi",
+          "number": 3,
+          "role": "Centrale",
+          "image": "/360_F_233175040_hwqRyiZlQkXimeLz2AIZhajyfiU9El1m.jpg"
+        },
+        {
+          "id": 4,
+          "name": "Francesco Neri",
+          "number": 4,
+          "role": "Libero",
+          "image": "/360_F_233175040_hwqRyiZlQkXimeLz2AIZhajyfiU9El1m.jpg"
+        },
+        {
+          "id": 5,
+          "name": "Giovanni Rossi",
+          "number": 5,
+          "role": "Schiacciatore",
+          "image": "/360_F_233175040_hwqRyiZlQkXimeLz2AIZhajyfiU9El1m.jpg"
+        },
+        {
+          "id": 6,
+          "name": "Giovanni Conti",
+          "number": 6,
+          "role": "Schiacciatore",
+          "image": "/360_F_233175040_hwqRyiZlQkXimeLz2AIZhajyfiU9El1m.jpg"
+        },
+        {
+          "id": 7,
+          "name": "Francesco Neri",
+          "number": 7,
+          "role": "Libero",
+          "image": "/360_F_233175040_hwqRyiZlQkXimeLz2AIZhajyfiU9El1m.jpg"
+        },
+        {
+          "id": 8,
+          "name": "Giovanni Rossi",
+          "number": 8,
+          "role": "Schiacciatore",
+          "image": "/360_F_233175040_hwqRyiZlQkXimeLz2AIZhajyfiU9El1m.jpg"
+        },
+        {
+          "id": 9,
+          "name": "Giovanni Conti",
+          "number": 9,
+          "role": "Schiacciatore",
+          "image": "/360_F_233175040_hwqRyiZlQkXimeLz2AIZhajyfiU9El1m.jpg"
+        }
+      ],
+      "staff": [
+        {
+          "id": 1,
+          "name": "Mario Rossi",
+          "role": "Allenatore",
+          "avatar": "/360_F_233175040_hwqRyiZlQkXimeLz2AIZhajyfiU9El1m.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Luigi Bianchi",
+          "role": "Preparatore Atletico",
+          "avatar": "/360_F_233175040_hwqRyiZlQkXimeLz2AIZhajyfiU9El1m.jpg"
+        },
+        {
+          "id": 3,
+          "name": "Sara Gialli",
+          "role": "Dirigente Sportivo",
+          "avatar": "/360_F_233175040_hwqRyiZlQkXimeLz2AIZhajyfiU9El1m.jpg"
+        }
+      ],
+      "matches": [
+        {
+          "id": 1,
+          "date": "2024-01-01",
+          "opponent": "Modena Volley",
+          "score": "3-1",
+          "win": true
+        },
+        {
+          "id": 2,
+          "date": "2024-01-02",
+          "opponent": "Verona Volley",
+          "score": "2-3",
+          "win": false
+        },
+        {
+          "id": 3,
+          "date": "2024-01-03",
+          "opponent": "Reggio Emilia Volley",
+          "score": "1-3",
+          "win": false
+        },
+        {
+          "id": 4,
+          "date": "2024-01-04",
+          "opponent": "Ferrara Volley",
+          "score": "3-0",
+          "win": true
+        }
+      ]
     },
     {
       "id": 3,
@@ -35,8 +271,126 @@
       "assistantCoach": "Matteo Verdi",
       "arena": "Palazinella, Bologna",
       "training": "Lunedì - Mercoledì 18:30-20:00",
+      "group": "Girone C",
       "objective": "Accesso alla fase regionale",
-      "rosterSize": 14
+      "rosterSize": 14,
+      "description": "La U19 Maschile è la squadra di livello più alto della nostra struttura. Partecipa al campionato regionale e si prepara per accedere ai play-off promozione in Serie B.",
+      "season": "2024/2025",
+      "players": [
+        {
+          "id": 1,
+          "name": "Mario Rossi",
+          "number": 1,
+          "role": "Palleggiatore",
+          "image": "/360_F_233175040_hwqRyiZlQkXimeLz2AIZhajyfiU9El1m.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Luigi Bianchi",
+          "number": 2,
+          "role": "Opposto",
+          "image": "/360_F_233175040_hwqRyiZlQkXimeLz2AIZhajyfiU9El1m.jpg"
+        },
+        {
+          "id": 3,
+          "name": "Giuseppe Verdi",
+          "number": 3,
+          "role": "Centrale",
+          "image": "/360_F_233175040_hwqRyiZlQkXimeLz2AIZhajyfiU9El1m.jpg"
+        },
+        {
+          "id": 4,
+          "name": "Francesco Neri",
+          "number": 4,
+          "role": "Libero",
+          "image": "/360_F_233175040_hwqRyiZlQkXimeLz2AIZhajyfiU9El1m.jpg"
+        },
+        {
+          "id": 5,
+          "name": "Giovanni Rossi",
+          "number": 5,
+          "role": "Schiacciatore",
+          "image": "/360_F_233175040_hwqRyiZlQkXimeLz2AIZhajyfiU9El1m.jpg"
+        },
+        {
+          "id": 6,
+          "name": "Giovanni Conti",
+          "number": 6,
+          "role": "Schiacciatore",
+          "image": "/360_F_233175040_hwqRyiZlQkXimeLz2AIZhajyfiU9El1m.jpg"
+        },
+        {
+          "id": 7,
+          "name": "Francesco Neri",
+          "number": 7,
+          "role": "Libero",
+          "image": "/360_F_233175040_hwqRyiZlQkXimeLz2AIZhajyfiU9El1m.jpg"
+        },
+        {
+          "id": 8,
+          "name": "Giovanni Rossi",
+          "number": 8,
+          "role": "Schiacciatore",
+          "image": "/360_F_233175040_hwqRyiZlQkXimeLz2AIZhajyfiU9El1m.jpg"
+        },
+        {
+          "id": 9,
+          "name": "Giovanni Conti",
+          "number": 9,
+          "role": "Schiacciatore",
+          "image": "/360_F_233175040_hwqRyiZlQkXimeLz2AIZhajyfiU9El1m.jpg"
+        }
+      ],
+      "staff": [
+        {
+          "id": 1,
+          "name": "Mario Rossi",
+          "role": "Allenatore",
+          "avatar": "/360_F_233175040_hwqRyiZlQkXimeLz2AIZhajyfiU9El1m.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Luigi Bianchi",
+          "role": "Preparatore Atletico",
+          "avatar": "/360_F_233175040_hwqRyiZlQkXimeLz2AIZhajyfiU9El1m.jpg"
+        },
+        {
+          "id": 3,
+          "name": "Sara Gialli",
+          "role": "Dirigente Sportivo",
+          "avatar": "/360_F_233175040_hwqRyiZlQkXimeLz2AIZhajyfiU9El1m.jpg"
+        }
+      ],
+      "matches": [
+        {
+          "id": 1,
+          "date": "2024-01-01",
+          "opponent": "Modena Volley",
+          "score": "3-1",
+          "win": true
+        },
+        {
+          "id": 2,
+          "date": "2024-01-02",
+          "opponent": "Verona Volley",
+          "score": "2-3",
+          "win": false
+        },
+        {
+          "id": 3,
+          "date": "2024-01-03",
+          "opponent": "Reggio Emilia Volley",
+          "score": "1-3",
+          "win": false
+        },
+        {
+          "id": 4,
+          "date": "2024-01-04",
+          "opponent": "Ferrara Volley",
+          "score": "3-0",
+          "win": true
+        }
+      ]
     },
     {
       "id": 4,
@@ -48,8 +402,126 @@
       "assistantCoach": "Federico Neri",
       "arena": "Palestra Copernico, Bologna",
       "training": "Martedì - Giovedì 18:00-19:30",
+      "group": "Girone D",
       "objective": "Crescita tecnica e qualificazione fase interprovinciale",
-      "rosterSize": 15
+      "rosterSize": 15,
+      "description": "La U17 Maschile è la squadra di livello più alto della nostra struttura. Partecipa al campionato regionale e si prepara per accedere ai play-off promozione in Serie B.",
+      "season": "2024/2025",
+      "players": [
+        {
+          "id": 1,
+          "name": "Mario Rossi",
+          "number": 1,
+          "role": "Palleggiatore",
+          "image": "/360_F_233175040_hwqRyiZlQkXimeLz2AIZhajyfiU9El1m.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Luigi Bianchi",
+          "number": 2,
+          "role": "Opposto",
+          "image": "/360_F_233175040_hwqRyiZlQkXimeLz2AIZhajyfiU9El1m.jpg"
+        },
+        {
+          "id": 3,
+          "name": "Giuseppe Verdi",
+          "number": 3,
+          "role": "Centrale",
+          "image": "/360_F_233175040_hwqRyiZlQkXimeLz2AIZhajyfiU9El1m.jpg"
+        },
+        {
+          "id": 4,
+          "name": "Francesco Neri",
+          "number": 4,
+          "role": "Libero",
+          "image": "/360_F_233175040_hwqRyiZlQkXimeLz2AIZhajyfiU9El1m.jpg"
+        },
+        {
+          "id": 5,
+          "name": "Giovanni Rossi",
+          "number": 5,
+          "role": "Schiacciatore",
+          "image": "/360_F_233175040_hwqRyiZlQkXimeLz2AIZhajyfiU9El1m.jpg"
+        },
+        {
+          "id": 6,
+          "name": "Giovanni Conti",
+          "number": 6,
+          "role": "Schiacciatore",
+          "image": "/360_F_233175040_hwqRyiZlQkXimeLz2AIZhajyfiU9El1m.jpg"
+        },
+        {
+          "id": 7,
+          "name": "Francesco Neri",
+          "number": 7,
+          "role": "Libero",
+          "image": "/360_F_233175040_hwqRyiZlQkXimeLz2AIZhajyfiU9El1m.jpg"
+        },
+        {
+          "id": 8,
+          "name": "Giovanni Rossi",
+          "number": 8,
+          "role": "Schiacciatore",
+          "image": "/360_F_233175040_hwqRyiZlQkXimeLz2AIZhajyfiU9El1m.jpg"
+        },
+        {
+          "id": 9,
+          "name": "Giovanni Conti",
+          "number": 9,
+          "role": "Schiacciatore",
+          "image": "/360_F_233175040_hwqRyiZlQkXimeLz2AIZhajyfiU9El1m.jpg"
+        }
+      ],
+      "staff": [
+        {
+          "id": 1,
+          "name": "Mario Rossi",
+          "role": "Allenatore",
+          "avatar": "/360_F_233175040_hwqRyiZlQkXimeLz2AIZhajyfiU9El1m.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Luigi Bianchi",
+          "role": "Preparatore Atletico",
+          "avatar": "/360_F_233175040_hwqRyiZlQkXimeLz2AIZhajyfiU9El1m.jpg"
+        },
+        {
+          "id": 3,
+          "name": "Sara Gialli",
+          "role": "Dirigente Sportivo",
+          "avatar": "/360_F_233175040_hwqRyiZlQkXimeLz2AIZhajyfiU9El1m.jpg"
+        }
+      ],
+      "matches": [
+        {
+          "id": 1,
+          "date": "2024-01-01",
+          "opponent": "Modena Volley",
+          "score": "3-1",
+          "win": true
+        },
+        {
+          "id": 2,
+          "date": "2024-01-02",
+          "opponent": "Verona Volley",
+          "score": "2-3",
+          "win": false
+        },
+        {
+          "id": 3,
+          "date": "2024-01-03",
+          "opponent": "Reggio Emilia Volley",
+          "score": "1-3",
+          "win": false
+        },
+        {
+          "id": 4,
+          "date": "2024-01-04",
+          "opponent": "Ferrara Volley",
+          "score": "3-0",
+          "win": true
+        }
+      ]
     },
     {
       "id": 5,
@@ -61,8 +533,126 @@
       "assistantCoach": "Riccardo Marchetti",
       "arena": "Palestra Copernico, Bologna",
       "training": "Lunedì - Giovedì 17:30-19:00",
+      "group": "Girone E",
       "objective": "Formazione tecnica e sviluppo fondamentali",
-      "rosterSize": 16
+      "rosterSize": 16,
+      "description": "La U15 Maschile è la squadra di livello più alto della nostra struttura. Partecipa al campionato regionale e si prepara per accedere ai play-off promozione in Serie B.",
+      "season": "2024/2025",
+      "players": [
+        {
+          "id": 1,
+          "name": "Mario Rossi",
+          "number": 1,
+          "role": "Palleggiatore",
+          "image": "/360_F_233175040_hwqRyiZlQkXimeLz2AIZhajyfiU9El1m.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Luigi Bianchi",
+          "number": 2,
+          "role": "Opposto",
+          "image": "/360_F_233175040_hwqRyiZlQkXimeLz2AIZhajyfiU9El1m.jpg"
+        },
+        {
+          "id": 3,
+          "name": "Giuseppe Verdi",
+          "number": 3,
+          "role": "Centrale",
+          "image": "/360_F_233175040_hwqRyiZlQkXimeLz2AIZhajyfiU9El1m.jpg"
+        },
+        {
+          "id": 4,
+          "name": "Francesco Neri",
+          "number": 4,
+          "role": "Libero",
+          "image": "/360_F_233175040_hwqRyiZlQkXimeLz2AIZhajyfiU9El1m.jpg"
+        },
+        {
+          "id": 5,
+          "name": "Giovanni Rossi",
+          "number": 5,
+          "role": "Schiacciatore",
+          "image": "/360_F_233175040_hwqRyiZlQkXimeLz2AIZhajyfiU9El1m.jpg"
+        },
+        {
+          "id": 6,
+          "name": "Giovanni Conti",
+          "number": 6,
+          "role": "Schiacciatore",
+          "image": "/360_F_233175040_hwqRyiZlQkXimeLz2AIZhajyfiU9El1m.jpg"
+        },
+        {
+          "id": 7,
+          "name": "Francesco Neri",
+          "number": 7,
+          "role": "Libero",
+          "image": "/360_F_233175040_hwqRyiZlQkXimeLz2AIZhajyfiU9El1m.jpg"
+        },
+        {
+          "id": 8,
+          "name": "Giovanni Rossi",
+          "number": 8,
+          "role": "Schiacciatore",
+          "image": "/360_F_233175040_hwqRyiZlQkXimeLz2AIZhajyfiU9El1m.jpg"
+        },
+        {
+          "id": 9,
+          "name": "Giovanni Conti",
+          "number": 9,
+          "role": "Schiacciatore",
+          "image": "/360_F_233175040_hwqRyiZlQkXimeLz2AIZhajyfiU9El1m.jpg"
+        }
+      ],
+      "staff": [
+        {
+          "id": 1,
+          "name": "Mario Rossi",
+          "role": "Allenatore",
+          "avatar": "/360_F_233175040_hwqRyiZlQkXimeLz2AIZhajyfiU9El1m.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Luigi Bianchi",
+          "role": "Preparatore Atletico",
+          "avatar": "/360_F_233175040_hwqRyiZlQkXimeLz2AIZhajyfiU9El1m.jpg"
+        },
+        {
+          "id": 3,
+          "name": "Sara Gialli",
+          "role": "Dirigente Sportivo",
+          "avatar": "/360_F_233175040_hwqRyiZlQkXimeLz2AIZhajyfiU9El1m.jpg"
+        }
+      ],
+      "matches": [
+        {
+          "id": 1,
+          "date": "2024-01-01",
+          "opponent": "Modena Volley",
+          "score": "3-1",
+          "win": true
+        },
+        {
+          "id": 2,
+          "date": "2024-01-02",
+          "opponent": "Verona Volley",
+          "score": "2-3",
+          "win": false
+        },
+        {
+          "id": 3,
+          "date": "2024-01-03",
+          "opponent": "Reggio Emilia Volley",
+          "score": "1-3",
+          "win": false
+        },
+        {
+          "id": 4,
+          "date": "2024-01-04",
+          "opponent": "Ferrara Volley",
+          "score": "3-0",
+          "win": true
+        }
+      ]
     },
     {
       "id": 6,
@@ -74,8 +664,126 @@
       "assistantCoach": "Elisa Martelli",
       "arena": "Palazinella, Bologna",
       "training": "Mercoledì - Venerdì 17:00-18:00",
+      "group": "Girone F",
       "objective": "Avviamento allo sport e sviluppo coordinativo",
-      "rosterSize": 25
+      "rosterSize": 25,
+      "description": "La Minivolley S3 è la squadra di livello più basso della nostra struttura. Partecipa all'attività promozionale e si prepara per accedere ai play-off promozione in Serie B.",
+      "season": "2024/2025",
+      "players": [
+        {
+          "id": 1,
+          "name": "Mario Rossi",
+          "number": 1,
+          "role": "Palleggiatore",
+          "image": "/360_F_233175040_hwqRyiZlQkXimeLz2AIZhajyfiU9El1m.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Luigi Bianchi",
+          "number": 2,
+          "role": "Opposto",
+          "image": "/360_F_233175040_hwqRyiZlQkXimeLz2AIZhajyfiU9El1m.jpg"
+        },
+        {
+          "id": 3,
+          "name": "Giuseppe Verdi",
+          "number": 3,
+          "role": "Centrale",
+          "image": "/360_F_233175040_hwqRyiZlQkXimeLz2AIZhajyfiU9El1m.jpg"
+        },
+        {
+          "id": 4,
+          "name": "Francesco Neri",
+          "number": 4,
+          "role": "Libero",
+          "image": "/360_F_233175040_hwqRyiZlQkXimeLz2AIZhajyfiU9El1m.jpg"
+        },
+        {
+          "id": 5,
+          "name": "Giovanni Rossi",
+          "number": 5,
+          "role": "Schiacciatore",
+          "image": "/360_F_233175040_hwqRyiZlQkXimeLz2AIZhajyfiU9El1m.jpg"
+        },
+        {
+          "id": 6,
+          "name": "Giovanni Conti",
+          "number": 6,
+          "role": "Schiacciatore",
+          "image": "/360_F_233175040_hwqRyiZlQkXimeLz2AIZhajyfiU9El1m.jpg"
+        },
+        {
+          "id": 7,
+          "name": "Francesco Neri",
+          "number": 7,
+          "role": "Libero",
+          "image": "/360_F_233175040_hwqRyiZlQkXimeLz2AIZhajyfiU9El1m.jpg"
+        },
+        {
+          "id": 8,
+          "name": "Giovanni Rossi",
+          "number": 8,
+          "role": "Schiacciatore",
+          "image": "/360_F_233175040_hwqRyiZlQkXimeLz2AIZhajyfiU9El1m.jpg"
+        },
+        {
+          "id": 9,
+          "name": "Giovanni Conti",
+          "number": 9,
+          "role": "Schiacciatore",
+          "image": "/360_F_233175040_hwqRyiZlQkXimeLz2AIZhajyfiU9El1m.jpg"
+        }
+      ],
+      "staff": [
+        {
+          "id": 1,
+          "name": "Mario Rossi",
+          "role": "Allenatore",
+          "avatar": "/360_F_233175040_hwqRyiZlQkXimeLz2AIZhajyfiU9El1m.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Luigi Bianchi",
+          "role": "Preparatore Atletico",
+          "avatar": "/360_F_233175040_hwqRyiZlQkXimeLz2AIZhajyfiU9El1m.jpg"
+        },
+        {
+          "id": 3,
+          "name": "Sara Gialli",
+          "role": "Dirigente Sportivo",
+          "avatar": "/360_F_233175040_hwqRyiZlQkXimeLz2AIZhajyfiU9El1m.jpg"
+        }
+      ],
+      "matches": [
+        {
+          "id": 1,
+          "date": "2024-01-01",
+          "opponent": "Modena Volley",
+          "score": "3-1",
+          "win": true
+        },
+        {
+          "id": 2,
+          "date": "2024-01-02",
+          "opponent": "Verona Volley",
+          "score": "2-3",
+          "win": false
+        },
+        {
+          "id": 3,
+          "date": "2024-01-03",
+          "opponent": "Reggio Emilia Volley",
+          "score": "1-3",
+          "win": false
+        },
+        {
+          "id": 4,
+          "date": "2024-01-04",
+          "opponent": "Ferrara Volley",
+          "score": "3-0",
+          "win": true
+        }
+      ]
     }
   ]
   

@@ -7,12 +7,15 @@
         <div class="h-[1px] bg-zinc-800 flex-grow"></div>
       </div>
   
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div v-if="!loading" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         <TeamCard 
           v-for="team in teams" 
           :key="team.id" 
           :team="team" 
         />
+      </div>
+      <div v-else class="flex justify-center items-center h-full gap-6">
+        <div v-for="i in 3" :key="i" class="h-60 w-full bg-zinc-800 animate-pulse rounded-xl mx-auto" />
       </div>
     </section>
   </template>
@@ -21,5 +24,6 @@
   defineProps<{
     title: string
     teams: any[]
+    loading: boolean
   }>()
   </script>
