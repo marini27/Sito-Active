@@ -1,17 +1,18 @@
 <template>
-  <footer class="bg-black text-yellow-400">
-    <div class="max-w-7xl mx-auto px-6 py-16">
-      
-      <!-- Grid colonne -->
-      <div class="grid grid-cols-1 md:grid-cols-4 gap-10">
-        
-        <!-- Colonne dinamiche -->
-        <div v-for="section in sections" :key="section.title">
-          <h3 class="text-lg font-semibold mb-4">
+  <footer class="text-center justify-center relative bg-black text-yellow-400">
+    <div class="z-[3] relative container flex flex-col py-10 items-center">
+        <div class="flex flex-col items-center">
+          <img src="/logo-zinella.png" alt="Zinella Volley Logo" class="w-15 h-15 mx-auto">
+          <h3 class="text-lg font-semibold my-4">
             {{ section.title }}
           </h3>
 
           <ul class="space-y-3">
+            <li v-if="section.social" :key="section.social[0]?.icon">
+              <NuxtLink v-for="social in section.social" :key="social.icon" :to="social.link" target="_blank">
+                <UIcon :name="social.icon" class="text-zinc-400 transition w-4 h-4 mx-2"/>
+              </NuxtLink>
+            </li>
             <li v-for="link in section.links" :key="link.label">
               <NuxtLink
                 :to="link.to"
@@ -20,18 +21,11 @@
                 {{ link.label }}
               </NuxtLink>
             </li>
-            <li v-if="section.social" :key="section.social[0]?.icon">
-              <NuxtLink v-for="social in section.social" :key="social.icon" :to="social.link" target="_blank">
-                <UIcon :name="social.icon" class="text-zinc-400 transition px-2 mx-2 my-2 w-4 h-4" />
-              </NuxtLink>
-            </li>
           </ul>
         </div>
 
-      </div>
-
       <!-- Bottom -->
-      <div class=" border-zinc-800 mt-16 pt-6 text-center text-zinc-400">
+      <div class=" border-zinc-800 text-center text-zinc-400 mt-4 mx-auto">
         © 2024 Zinella Volley Bologna ASD - P.IVA 0123456789
       </div>
 
@@ -40,7 +34,7 @@
 </template>
 
 <script setup lang="ts">
-const sections = [
+const section = 
   {
     title: "ZINELLA VOLLEY",
     links: [
@@ -51,34 +45,6 @@ const sections = [
       { icon: "i-simple-icons-instagram", link: "https://instagram.com" },
       { icon: "i-simple-icons-youtube", link: "https://youtube.com" }
     ]
-  },
-  {
-    title: "SOCIETÀ",
-    links: [
-      { label: "Chi Siamo", to: "/" },
-      { label: "Storia", to: "/" },
-      { label: "Organigramma", to: "/" },
-      { label: "Partner & Sponsor", to: "/" }
-    ]
-  },
-  {
-    title: "ATTIVITÀ",
-    links: [
-      { label: "Serie C Maschile", to: "/" },
-      { label: "Settore Giovanile", to: "/" },
-      { label: "Minivolley S3", to: "/" },
-      { label: "Camp Estivi", to: "/" }
-    ]
-  },
-  {
-    title: "CONTATTI",
-    links: [
-      { label: "Segreteria", to: "/" },
-      { label: "Lavora con noi", to: "/" },
-      { label: "Dove Siamo", to: "/" },
-      { label: "Area Riservata", to: "/" }
-    ]
   }
-]
 </script>
 
