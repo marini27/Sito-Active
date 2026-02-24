@@ -44,8 +44,41 @@
     imageSrc="/360_F_233175040_hwqRyiZlQkXimeLz2AIZhajyfiU9El1m.jpg"
     imageAlt="Zinella Volley Bologna"
   />
+  <!-- carosello sponsor -->
+  <div class="bg-black w-full px-2 py-12">
+    <h2 class="text-xl uppercase tracking-widest px-6 mt-6 leading-tight text-yellow-400 pb-6" >
+      I nostri sponsor
+    </h2>
+    <div v-if="!sponsor.length" class="flex gap-6">
+      <div v-for="i in 3" :key="i" class="h-60 w-72 bg-zinc-800 animate-pulse rounded-xl" />
+    </div>
+  
+    <div v-else class="flex gap-6 overflow-x-auto no-scrollbar scroll-smooth">
+        <div
+          v-for="sponsor in sponsor"
+          :key="sponsor.id"
+          @click="handleClickSponsor(sponsor)"
+          class="snap-start flex-shrink-0 w-[75%] sm:w-[45%] lg:w-[30%]"
+        >
+          <img :src="sponsor.image" :alt="sponsor.name" class="w-full h-full object-cover" />
+        </div>
+    </div>
+  </div>
 </template>
 
 <script setup>
 import ZinellaSection from '~/components/ZinellaSection.vue';
+import mockSponsor from '~/mock/sponsor.json';
+
+const sponsor = ref(mockSponsor);
+
+onMounted(() => {
+  setTimeout(() => {
+    sponsor.value = mockSponsor;
+  }, 1500);
+});
+
+const handleClickSponsor = (sponsor) => {
+  window.open(sponsor.link, '_blank');
+}
 </script>

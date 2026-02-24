@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Sponsor 1",
+        "image": "/360_F_233175040_hwqRyiZlQkXimeLz2AIZhajyfiU9El1m.jpg",
+        "link": "https://www.google.com"
+    },
+    {
+        "id": 2,
+        "name": "Sponsor 2",
+        "image": "/360_F_233175040_hwqRyiZlQkXimeLz2AIZhajyfiU9El1m.jpg",
+        "link": "https://www.facebook.com"
+    },
+    {
+        "id": 3,
+        "name": "Sponsor 3",
+        "image": "/360_F_233175040_hwqRyiZlQkXimeLz2AIZhajyfiU9El1m.jpg",
+        "link": "https://www.instagram.com"
+    },
+    {
+        "id": 4,
+        "name": "Sponsor 4",
+        "image": "/360_F_233175040_hwqRyiZlQkXimeLz2AIZhajyfiU9El1m.jpg",
+        "link": "https://www.linkedin.com"
+    },
+    {
+        "id": 5,
+        "name": "Sponsor 5",
+        "image": "/360_F_233175040_hwqRyiZlQkXimeLz2AIZhajyfiU9El1m.jpg",
+        "link": "https://www.twitter.com"
+    },
+    {
+        "id": 6,
+        "name": "Sponsor 6",
+        "image": "/360_F_233175040_hwqRyiZlQkXimeLz2AIZhajyfiU9El1m.jpg",
+        "link": "https://www.youtube.com"
+    }
+]
